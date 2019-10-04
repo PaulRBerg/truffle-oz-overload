@@ -1,0 +1,17 @@
+{
+  "name": "truffle-oz-overload",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^2.3.0",
+    "@truffle/hdwallet-provider": "^1.0.20",
+    "bn.js": "^5.0.0",
+    "dotenv": "^8.1.0"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@openzeppelin/upgrades": "^2.5.3"
+  }
+}
